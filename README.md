@@ -1,3 +1,3 @@
 # juliemy.github.io
-
-https://juliemy.github.io/natfag_lifecoach
+[Natfag og KP oppgave]
+ (https://juliemy.github.io/natfag_lifecoach)
