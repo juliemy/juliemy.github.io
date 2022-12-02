@@ -1,5 +1,5 @@
 # juliemy.github.io
 
-## Mine oppgaver:
-## https://www.nrk.no/
-elkfjdkjoepiekbfjkji
+ Mine oppgaver:
+ https://www.nrk.no/
+
