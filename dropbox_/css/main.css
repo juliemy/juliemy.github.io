@@ -1,0 +1,152 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  li {
+  float: left;
+  }
+  
+#nav{
+  position: fixed;
+  width:100%;
+}
+
+  li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
+
+li a:hover {
+  background-color: #222;
+  }
+
+.blue {
+  background-color: cornflowerblue;
+}
+
+#del1 {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color:#111;
+}
+
+#header {
+  margin-left: 20%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size:x-large;
+  text-align: center;
+  color:white;
+  margin-top: 100px;
+  margin-right: 20%;
+}
+
+#underoverskrift {
+  margin-left: 20%;
+  margin-right: 20%;
+  color: white;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#del2 {
+  display:flex;
+  background-color:#111;
+  height:200px;
+  width:100%;
+  align-items: center;
+  justify-content: center;
+}
+
+#find {
+ align-items: center;
+ list-style-type: none;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#findurplan{
+  background-color: cornflowerblue;
+
+}
+
+#del3{
+  display:flex;
+  background-color:#111;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  height:700px;
+  width:100%;
+}
+
+#ikoner {
+  display:flex;
+  flex-direction: row;
+  background-color:#111;
+  height:200px;
+  width:100%;
+  align-items:baseline;
+  justify-content: center;
+}
+
+h4{
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: medium;
+}
+
+h6{
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: medium;
+  font-weight:100;
+}
+#smiley{
+  margin:30px;
+  color:white;
+}
+#sky{
+  margin:30px;
+  color:white;
+}
+#glitter{
+  margin:30px;
+  color:white;
+}
+#skjold{
+  margin:30px;
+  color:white;
+}
+
+*,html,body{
+  margin:0px;
+}
+
+/*
+@media screen and (max-width: 600px) {
+  .nav ul {
+    float: none;
+    width: 100%;
+  }
+}
+
+
+/*
+
+(bruk w3schools, media queries senere)
+
+@media screen and (max-width: 600px) {
+  .nav li {
+    float: none;
+    width: 100%;
+  }
+}
+} */
