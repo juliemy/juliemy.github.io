@@ -2,10 +2,19 @@ body {
     margin:0;
 }
 
-ul {
+a {
     text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
 }
 
+#header {
+    display: flex;
+    justify-content: center;
+}
 #linker {
     display: flex;
     flex-direction: column;
