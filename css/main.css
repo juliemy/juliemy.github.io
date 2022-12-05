@@ -1,3 +1,12 @@
 body {
     margin:0;
+    background-color: blue;
+}
+
+ul {
+    text-decoration: none;
+}
+
+#linker {
+    display: flex;
 }
