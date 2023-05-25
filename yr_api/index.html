@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha384-8l7Wu0v6U0/d6UgK6U+8ZHv2JSF+pzjK5yfoCfOb7Q/2tvcrKj7xuZizDLN61NiS" crossorigin="anonymous">
+        <script src="js/myscript.js" defer></script>
+        <link rel="stylesheet" href="css/style.css">
+        <title>YR - API</title>
+</head>
+<body>
+<div id="parent">
+    <div id="header">
+        <h1>Sjekk været!</h1>
+    </div>
+    <div id="mainbody">
+        <div id="stedsMeny">
+            <button type="button" onclick="sendRequest('Oslo', '59.9114', '10.7579');">Oslo</button>
+            <button type="button" onclick="sendRequest('Ski', '59.7196', '10.8358');">Ski</button>
+            <button type="button" onclick="sendRequest('Sandvika', '59.8907', '10.5277');">Sandvika</button>
+        </div>
+        <div id="vermelding">
+            <div id="byer">
+                <h2 id="by"></h2>
+                <img id="outputimg" src="" alt="">
+            </div>
+            <div id="contentver">
+                <p id="outputTemp"></p>
+                <p id="outputWind"></p>
+                <p id="outputHumidity"></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html> 

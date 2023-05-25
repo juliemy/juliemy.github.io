@@ -1,0 +1,72 @@
+body {
+    background-color: aliceblue;
+    margin: 0;
+}
+
+h1{
+    font-size: 50px;
+    color: #53a7cd;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    font-size: 30px;
+    color: #53a7cd;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+button {
+    background-color: #53a7cd;
+    border: none;
+    color: white;
+    padding: 25px 40px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    margin: 16px 16px;
+}
+    #stedsMeny {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        background-color: #53a7cd;
+
+    }
+
+#vermelding {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+
+}
+    #byer {
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 4%;
+        margin-top: 5%;
+        align-items: center;
+    }
+    
+    #contentver {
+        width:50%;
+        margin-left: 4%;
+        margin-top: 5%;
+        padding: 50px 50px;
+        background-color:aliceblue;
+
+    }
+
+    
